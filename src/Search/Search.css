@@ -1,0 +1,40 @@
+.wrap{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    width: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    padding: 0px 10px;
+}
+.input input{
+    width: 70%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 0;
+    outline: none;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+}
+.imgs{
+    margin: 15px;
+}
+.imgs img{
+    width: 200px;
+    height: 200px;
+}
+.search{
+    color: white;
+}
